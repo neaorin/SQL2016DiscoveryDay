@@ -100,7 +100,7 @@ Once you have access to your Azure subscription, you can provision a new SQL Ser
 
 7. Once the Virtual Machine has been created, it's time to connect to it. 
 
-![](images/ConnectRDP.png)
+![](images/connectRDP.png)
 
 You can find your machine in the **Virtual Machines** or **All Resources** sections of the Azure Portal.
 
@@ -112,6 +112,6 @@ Enter your username and password in the connection window.
 
 Once the connection has been established, you can run SQL Server Management Studio from within the VM itself,  and connect to your new SQL Server 2016 instance.
 
-![](images/ConnectSQL.png)
+![](images/connectSQL.png)
 
 [Back to Main Page](../README.md)
