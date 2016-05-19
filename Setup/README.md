@@ -127,20 +127,20 @@ Once the connection has been established, you can run SQL Server Management Stud
 
 If after creating the Virtual Machine you need to install additional SQL Server features (for example PolyBase or R Services), follow these steps:
 
-- Launch **SQL Server 2016 RC3 Installation Center (64-bit)**
-- In the Installation Center screen, select **New SQL Server stand-alone installation or add features to an existing installation**.
+1. Launch **SQL Server 2016 RC3 Installation Center (64-bit)**
+2. In the Installation Center screen, select **New SQL Server stand-alone installation or add features to an existing installation**.
 
 ![](images/AddFeaturesMain.png)
 
-- You will be prompted to select the SQL Server installation media location. 
+3. You will be prompted to select the SQL Server installation media location. 
 
 > Note: The SQL Server installation kit can be found inside **C:\SQLServer_13.0_Full**
 
-- In the **Installation Type** screen, select the Add features... option.
+4. In the **Installation Type** screen, select the Add features... option.
 
 ![](images/AddFeatures.png)
 
-- In the **FeatureSelection** screen, check the additional features you require.
+5. In the **Feature Selection** screen, check the additional features you require.
 
 ![](images/AddFeatures2.png)
 
