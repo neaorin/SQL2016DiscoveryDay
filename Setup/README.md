@@ -40,7 +40,7 @@ Once you have those, follow the steps below to get your subscription. The [Azure
 
 2. Select your country of residence and enter the code.
 
-![](images/azurepass01.png)
+    ![](images/azurepass01.png)
 
 3. Hit **Submit**. 
 
@@ -130,18 +130,18 @@ If after creating the Virtual Machine you need to install additional SQL Server 
 1. Launch **SQL Server 2016 RC3 Installation Center (64-bit)**
 2. In the Installation Center screen, select **New SQL Server stand-alone installation or add features to an existing installation**.
 
-![](images/AddFeaturesMain.png)
+    ![](images/AddFeaturesMain.png)
 
 3. You will be prompted to select the SQL Server installation media location. 
 
-> Note: The SQL Server installation kit can be found inside **C:\SQLServer_13.0_Full**
+    > Note: The SQL Server installation kit can be found inside **C:\SQLServer_13.0_Full**
 
 4. In the **Installation Type** screen, select the Add features... option.
 
-![](images/AddFeatures.png)
+    ![](images/AddFeatures.png)
 
 5. In the **Feature Selection** screen, check the additional features you require.
 
-![](images/AddFeatures2.png)
+    ![](images/AddFeatures2.png)
 
 [Back to Main Page](../README.md)
