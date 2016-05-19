@@ -2,6 +2,14 @@
 
 #Setup - Create a Free Azure Subscription and set up SQL Server 2016 Virtual Machine
 
+This section covers the following topics:
+
+1. [Get a free Azure Subscription](#1)
+2. [Setup SQL Server 2016 Virtual Machine](#2)
+3. [Install additional SQL Server features](#3)
+
+#1. Get a free Azure Subscription
+
 In order to create a free Azure Subscription, you can either use 
 
 - the free monthly Azure credit which comes with the (also free) [Visual Studio Dev Essentials](https://azure.microsoft.com/en-gb/pricing/member-offers/vs-dev-essentials/) offer.
@@ -113,5 +121,27 @@ Enter your username and password in the connection window.
 Once the connection has been established, you can run SQL Server Management Studio from within the VM itself,  and connect to your new SQL Server 2016 instance.
 
 ![](images/connectSQL.png)
+
+
+#3. Install additional SQL Server features
+
+If after creating the Virtual Machine you need to install additional SQL Server features (for example PolyBase or R Services), follow these steps:
+
+- Launch **SQL Server 2016 RC3 Installation Center (64-bit)**
+- In the Installation Center screen, select **New SQL Server stand-alone installation or add features to an existing installation**.
+
+![](images/AddFeaturesMain.png)
+
+- You will be prompted to select the SQL Server installation media location. 
+
+> Note: The SQL Server installation kit can be found inside **C:\SQLServer_13.0_Full**
+
+- In the **Installation Type** screen, select the Add features... option.
+
+![](images/AddFeatures.png)
+
+- In the **FeatureSelection** screen, check the additional features you require.
+
+![](images/AddFeatures2.png)
 
 [Back to Main Page](../README.md)
