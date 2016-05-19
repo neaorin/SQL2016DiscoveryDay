@@ -4,9 +4,9 @@
 
 This section covers the following topics:
 
-1. [Get a free Azure Subscription](#1)
-2. [Setup SQL Server 2016 Virtual Machine](#2)
-3. [Install additional SQL Server features](#3)
+1. [Get a free Azure Subscription](#1-get-a-free-azure-subscription)
+2. [Setup SQL Server 2016 Virtual Machine](#2-setup-sql-server-2016-virtual-machine)
+3. [Install additional SQL Server features](#3-install-additional-sql-server-features)
 
 #1. Get a free Azure Subscription
 
