@@ -6,6 +6,7 @@
 
 1. [Click here to set up your SQL Server 2016 environment](Setup/README.md)
 2. [Click here to download the PASS sample data](resources/SQL2016DiscoveryDataV2.xlsx)
+3. [Click here to download the scenario description](resources/SQLServer2016DiscoveryDayHack.pdf)
 
 ## Event Description
 
